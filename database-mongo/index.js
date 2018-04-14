@@ -16,7 +16,7 @@ db.once('open', function() {
 var movieSchema = mongoose.Schema({
   userName: String,
   passWord: String,
-  movieName:String,
+  movieName:String
 });
 
 var Movie = mongoose.model('Movie', movieSchema);
